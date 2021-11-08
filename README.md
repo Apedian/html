@@ -1,0 +1,23 @@
+# html <!DOCTYPE html>
+
+<html>
+
+<body>
+
+<h1>The output element</h1>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+
+<input type="range" id="a" value="50">
+
+21 type="number" id="b" value="25">
+
+=<output name="x" for="a b"></output>
+
+</form>
+
+<p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+
+</body>
+
+</html>
